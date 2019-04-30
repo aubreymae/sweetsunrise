@@ -346,7 +346,7 @@ button:hover
         justify-content: center;
         align-items: flex-end;
         flex-wrap: wrap;
-        height: 200px;
+        height: 300px;
         width: 100%;
         padding: 20px 20px 20px 0px;
         font-size: 1em;
@@ -357,12 +357,12 @@ button:hover
 
     #user-icon-mobile
     {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         clear: both;
         background-color: white;
         background-image: url("/assets/others/aubrey1-bw.jpg");
-        background-size: 100px 100px;
+        background-size: 150px 150px;
     }
 
     #tagline-mobile
@@ -388,6 +388,11 @@ button:hover
     {
         margin-right: 20px;
         font-size: 1.5em;
+    }
+
+    button
+    {
+        font-size: 1em;
     }
 
     /* GRID */
@@ -416,6 +421,7 @@ button:hover
         height: 200px;
         margin: 0;
         padding: 0;
+        font-size: 1em;
         background-color: #222222;
     }
 
