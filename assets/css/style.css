@@ -36,6 +36,11 @@ a:hover
     background-color: #222222;
 }
 
+#header-mobile
+{
+    display: none;
+}
+
 #inner
 {
     height: auto;
@@ -303,9 +308,14 @@ button:hover
     font-size: 0.8em;
 }
 
+#contact
+{
+    margin-bottom: 60px;
+}
+
 .breadcrumbs
 {
-    margin: 40px 0px 20px 0px;
+    margin: 80px 0px 60px 0px;
     text-align: center;
     font-size: 1.5em;
     font-weight: 700;
@@ -327,16 +337,17 @@ button:hover
 /* MEDIA QUERIES */
 @media screen and (max-width: 1100px)
 {
-    html, body
-    {
-        font-size: 1em;
-    }
-
     /* HEADER */
 
     #header
     {
         display: none;
+    }
+
+    header
+    {
+        margin: 0;
+        padding: 0;
     }
 
     #header-mobile
@@ -346,11 +357,11 @@ button:hover
         justify-content: center;
         align-items: flex-end;
         flex-wrap: wrap;
-        height: 300px;
+        height: 200px;
         width: 100%;
-        padding: 20px 20px 20px 0px;
+        padding: 20px 0px 20px 0px;
         background-image: url("/assets/header/img-block.jpg");
-        object-fit: none;
+        background-size: 100% 100%;
         background-position: 50% 100%;
     }
 
@@ -403,7 +414,7 @@ button:hover
 
     .footer-mobile
     {
-        position: relative;
+        /* position: relative; */
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -422,6 +433,16 @@ button:hover
         align-self: center;
         text-align: center;
         flex-basis: 100%;
+    }
+
+    #social-icons > *
+    {
+        margin-left: 15px;
+    }
+
+    #social-icons > *:first-child
+    {
+        margin-left: 0px;
     }
 
     #footer-text
